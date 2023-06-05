@@ -1,7 +1,11 @@
 struct State
 {
     int c;
-    State *out;
-    State *out1;
+    struct State *out;
+    struct State *out1;
     int lastlist;
-};
+} ;
+
+int main(void) {
+    return 0;
+}
